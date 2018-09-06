@@ -4,6 +4,8 @@ import numpy as np
 import tensorflow as tf
 from uttt_env import UltTTTEnv
 
+# Gen writing something
+
 class DQN:	
 	REPLAY_MEMORY_SIZE = 10000 			# number of tuples in experience replay  
 	EPSILON = 0.9 						# epsilon of epsilon-greedy exploration
